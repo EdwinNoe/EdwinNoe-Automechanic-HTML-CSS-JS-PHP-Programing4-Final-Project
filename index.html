@@ -1,0 +1,176 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Automechanic</title>
+    <link rel="stylesheet" href="./style/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/bootstrap-5.3.3-dist/css/custom.css">
+  </head>
+  <body>
+    <header >
+        <nav class="navbar navbar-expand-lg navbar_custom ">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active " href="#Servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active " href="#Overview">Overview</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./pages/galeria.html">Galeria y Videos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./pages/faqs.html"> FAQS </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./pages/programarcita.php"> Programar Cita </a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true">Disabled</a>
+                  </li> -->
+                </ul>
+              </div>
+              <a href="./pages/login.php" style="padding-right: 30px;">
+                <button type="button" class="btn btn-outline-tertiary">Login</button>
+              </a>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="hero">
+          <img src="./assets/heroimg.jpg" alt="Taller de Autos">
+          <div class="hero-link">
+            <h2>¡Reserva tu cita hoy mismo! </h2>
+            <a href="./pages/programarcita.php"><button type="button" class="btn btn-tertiary">Programar ahora</button></a>
+          </div>
+        </div>
+      </section>
+
+<!-- Overview -->
+        <section class="container py-5 overview" id="Servicios">
+          <div class="row text-center mb-4">
+            <div class="row overview-titulo">
+              <h2 class="custom-subrayado">Nuestros Servicios</h2>
+              <p class="text-primary">Descubre todo lo que podemos hacer por tu vehículo</p>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Mantenimiento de vehículos -->
+            <div class="col-md-6 mb-4">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title">Mantenimiento de Vehículos</h3>
+                  <ul class="list-unstyled">
+                    <li>✔ Cambio de aceite</li>
+                    <li>✔ Revisión de dirección</li>
+                    <li>✔ Mantenimiento básico</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Reparación de vehículos -->
+            <div class="col-md-6 mb-4">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title">Reparación de Vehículos</h3>
+                  <ul class="list-unstyled">
+                    <li>✔ Cambio de repuestos</li>
+                    <li>✔ Enderezado y pintado</li>
+                    <li>✔ Sistema eléctrico</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+<!-- quienes somos  -->
+
+      <section id="Overview">
+        <div class="container my-3">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="./assets/Quienes somos.jpg" alt="Descripción de la imagen" class="img-fluid rounded">
+            </div>
+
+            <div class="col-md-6 d-flex flex-column  bg-primar">
+              <h2 class="mb-3 overview-titulo col-md-12 custom-subrayado">¿Quienes somos?</h2>
+              <p class="mb-4">
+                En Automechanic, somos un equipo de expertos dedicados al mantenimiento y reparación de vehículos. Con una amplia experiencia en el sector, ofrecemos servicios especializados como cambio de aceite, revisión de sistemas de dirección, mantenimiento básico, y reparación de sistemas eléctricos y mecánicos. Nuestro objetivo es garantizar que tu vehículo esté siempre en óptimas condiciones, proporcionando un servicio de calidad, confiable y eficiente para satisfacer todas tus necesidades automotrices.
+              </p>
+              
+              <a href="./pages/galeria.html">
+                <button type="button" class="btn btn-tertiary">Conoce mas en galeria</button>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+<!-- testimonios  -->
+      
+      <section class="container py-5 overview"> 
+
+        <div class="row text-center mb-4">
+          <div class="row overview-titulo">
+            <h2 class="custom-subrayado">Lo que dicen nuestros clientes</h2>
+            <p class="text-primary">Testimonios reales de quienes confían en nuestro servicio para el cuidado de su vehículo</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./assets/Cliente1.jpg" alt="Card image cap">
+            <div class="card-body flex-column">
+              <p class="card-text">"Me encantó el servicio. Fueron muy amables y atentos con mi coche. Definitivamente recomendaré este taller a todos mis amigos."</p>
+              <i>María L.</i>
+              <img src="./assets/Stars.jpg" alt="5 Stars">
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./assets/Cliente2.jpg" alt="Card image cap">
+            <div class="card-body flex-column">
+              <p class="card-text">"Excelente atención. El personal se preocupó por mi vehículo como si fuera suyo. Muy satisfechos con el trabajo realizado."</p>
+              <i>Isabel G.</i>
+              <img src="./assets/Stars.jpg" alt="5 Stars">
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./assets/Cliente3.jpg" alt="Card image cap">
+            <div class="card-body flex-column">
+              <p class="card-text">"Profesionales y rápidos. Me solucionaron un problema en mi coche que me tenía preocupado. Un servicio de 10, sin duda volveré."</p>
+              <i>Andrés T.</i>
+              <img src="./assets/Stars.jpg" alt="5 Stars">
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <footer class="footer_custom">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="footer_custom-link nav-link px-2">Home</a></li>
+        <li class="nav-item"><a href="#Overview" class="footer_custom-link nav-link px-2">Overview</a></li>
+        <li class="nav-item"><a href="./pages/galeria.html" class="footer_custom-link nav-link px-2">Galeria/Videos</a></li>
+        <li class="nav-item"><a href="#Servicios" class="footer_custom-link nav-link px-2">Servicios</a></li>
+        <li class="nav-item"><a href="./pages/faqs.html" class="footer_custom-link nav-link px-2">FAQS</a></li>
+        <li class="nav-item"><a href=".//pages/programarcita.php" class="footer_custom-link nav-link px-2">Programar Cita</a></li>
+      </ul>
+      <p class="text-center text-muted footer_custom-link mb-0">© 2024 Automechanic, Edwin Argueta 32111584</p>
+    </footer>
+    
+</body>
+
+<script src="./style/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</html>
+

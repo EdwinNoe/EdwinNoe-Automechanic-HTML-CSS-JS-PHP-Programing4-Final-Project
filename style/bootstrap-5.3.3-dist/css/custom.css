@@ -1,0 +1,301 @@
+:root {
+    
+    --primario-oscuro: #b4b4b4;
+    --primario: #d3d3d3; 
+    --primario-claro: #e4e4e4;
+
+    --secundario-oscuro: #0f0f0f;
+    --secundario: #2c2c2c;
+    --secundario-claro: #353434;
+
+    --terciario-oscuro: #d3b969;
+    --terciario: #f1c43d;
+    --terciario-claro: #fae092;
+}
+
+/* Variables de bootstrap */
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+main{
+    background-color: var(--primario);
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+/* nav */
+.active{
+    color: var(--terciario) !important;; 
+}
+
+
+.active:hover{
+    color: var(--primario-claro) !important;
+}
+
+.nav-link{
+    color: var(--primario);
+}
+
+
+.nav-link:hover{
+    color: var(--primario-oscuro);
+}
+
+.navbar-toggler {
+    background-color: var(--terciario);
+}
+.navbar-brand{
+    width: 10rem;
+}
+
+.custom-subrayado{
+    text-decoration: underline;
+    text-decoration-color: var(--primario-oscuro);
+    text-underline-offset: 2px;
+}
+
+
+
+/* botones custom*/
+/* Botones personalizados */
+.btn-primary {
+    background-color: var(--primario);
+    color: black;
+    border: #0f0f0f;
+}
+
+.btn-primary:hover {
+    background-color: var(--primario-oscuro);
+    color: black;
+    border: #0f0f0f;
+}
+
+.btn-secondary {
+    background-color: var(--secundario);
+    color: rgb(255, 255, 255);
+    border: #0f0f0f;
+}
+
+.btn-secondary:hover {
+    background-color: var(--secundario-oscuro);
+    color: rgb(255, 255, 255);
+    border: #0f0f0f;
+}
+
+.btn-tertiary {
+    background-color: var(--terciario);
+    color: black;
+    border: #0f0f0f;
+}
+
+.btn-tertiary:hover {
+    background-color: var(--terciario-oscuro);
+    color: black;
+    border: #0f0f0f;
+}
+
+.btn-success {
+    background-color: #28a745; 
+    color: white;
+    border: #0f0f0f;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    color: white;
+    border: #0f0f0f;
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+    color: white;
+    border: #0f0f0f;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    color: white;
+    border: #0f0f0f;
+}
+
+/* Botones con contorno */
+.btn-outline-primary {
+    background-color: transparent;
+    color: var(--primario);
+    border: 1px solid var(--primario);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primario);
+    color: black;
+    border: 1px solid var(--primario);
+}
+
+.btn-outline-secondary {
+    background-color: transparent;
+    color: var(--secundario);
+    border: 1px solid var(--secundario);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--secundario);
+    color: rgb(255, 255, 255);
+    border: 1px solid var(--secundario);
+}
+
+.btn-outline-tertiary {
+    background-color: transparent;
+    color: var(--terciario);
+    border: 1px solid var(--terciario);
+}
+
+.btn-outline-tertiary:hover {
+    background-color: var(--terciario);
+    color: black;
+    border: 1px solid var(--terciario);
+}
+
+.btn-outline-success {
+    background-color: transparent;
+    color: #28a745;
+    border: 1px solid #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+    border: 1px solid #28a745;
+}
+
+.btn-outline-danger {
+    background-color: transparent;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+    border: 1px solid #dc3545;
+}
+
+.text-primary{
+    color: var(--primario) !important;
+}
+
+/* navbar  */
+.navbar_custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secundario);
+}div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Hero */
+.hero{
+    position: relative;
+    overflow: hidden;
+    height: 30rem;
+}img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-link{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute ;
+    z-index: 1;
+    background-color: var(--secundario);
+    bottom: 10px;
+}h2{
+    text-align: center;
+    color: var(--primario);
+}
+
+@media (max-width: 990px) {
+    .hero{
+
+    }img{
+        height: 100%;
+    }
+}
+
+/*overview*/
+
+.overview{
+    border-radius: 30px;
+    margin-top: 10px;
+    background-color: var(--primario-claro);
+
+}
+.overview-titulo{
+    background-color: var(--secundario);
+}
+
+/*quienes somos*/
+
+/*Nuestros clientes*/
+
+
+/* footer */
+
+.footer_custom{
+    background-color: var(--secundario);
+}
+
+.footer_custom-link{
+    color: white !important;
+}
+
+/* galeria  */
+.galeria-tittle {
+    display: flex;
+    background-color: var(--secundario);
+    width: 100vw; 
+    justify-content: center; 
+}
+
+/* faq */
+
+.accordion-item {
+    display: block; 
+    width: 100%;    
+    margin-bottom: 15px;
+}
+.accordion-button {
+    width: 100%;    
+    background-color:var(--secundario);
+    color: var(--primario-claro);
+}
+
+
+.accordion-button:focus {
+    box-shadow: none; 
+    outline: none;  
+    background-color: var(--secundario-claro);
+    color: var(--terciario);
+}
+
+.accordion-button::after {
+content: "▼"; 
+font-size: 0.9em;
+
+}
+
+
+/* formulario  */
+
+.formulario-custom{
+    width: 30vw;
+    margin-bottom: 30%;
+}
