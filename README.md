@@ -90,6 +90,7 @@ El proyecto consiste en el desarrollo de una **aplicación web** para gestionar 
 3. **Ejecutar el Proyecto**:
    - Coloca todos los archivos del proyecto en el directorio raíz de tu servidor (por ejemplo, `htdocs` en XAMPP).
    - Accede a través de `http://localhost/nombre_del_proyecto/` en tu navegador.
+   - Con Xamp por ejemplo : C:\xampp\php\php.exe -S localhost:30000
 
 #### Capturas de Pantalla
 ![Página Principal](./imagenes%20para%20GitHub/1.png)
@@ -207,6 +208,7 @@ This project involves the development of a **web application** to manage vehicle
 3. **Run the Project**:
    - Place all project files in the root directory of your server (e.g., `htdocs` in XAMPP).
    - Access the project via `http://localhost/project_name/` in your browser.
+   - running with Xamp for example : C:\xampp\php\php.exe -S localhost:30000
 
 #### Screenshots
 ![Home Page](./imagenes%20para%20GitHub/1.png)
@@ -234,8 +236,6 @@ This project aims to provide a web solution for managing the automotive services
 
 The project was developed according to the course requirements and the submission deadline, with evaluation focused on the full functionality of the system, its usability, and code quality.
 
-**Submission Deadline**: 14/12/2024  
-**Presentation Date**: 30/11/2024 (Marketing Interface)
 ---
 
 Thank you for reviewing my project!
